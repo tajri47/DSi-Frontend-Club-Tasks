@@ -1,0 +1,56 @@
+.cards-wrapper {
+    height: auto;
+    width: 1795px;
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+    justify-content: space-between;
+}
+@media (max-width: 1375px) {
+    .cards-wrapper {
+        width: 1179px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-container:nth-child(1) {
+        order: 2;
+    } /* Card 1 appears second */
+    .card-container:nth-child(2) {
+        order: 1;
+    } /* Card 2 appears first */
+    .card-container:nth-child(3) {
+        order: 3;
+    } /* Card 3 stays last */
+}
+@media(max-width: 538px){
+    .card-container{
+        width: 375px;
+        height: 700px;
+    }
+    .player-img{
+        width: 347px;
+        object-fit: cover;
+    }
+    .desktop-img{display:none;}
+    .mobile-img{display: block;}
+    .card-info{
+        height: 166px;
+        width: 347px;
+        margin-bottom: 80px;
+    }
+    .buttons{
+        width: 347px;
+        height: 102px;
+        flex-direction: column;
+    }
+    .button1, .button2{
+        width: 347px;
+    }
+    .cards-wrapper{
+        width: 357px;
+        flex-wrap: wrap;
+    }
+    .card-container:nth-child(1) { order: 2; } /* Card 1 second */
+    .card-container:nth-child(2) { order: 1; } /* Card 2 first */
+    .card-container:nth-child(3) { order: 3; } /* Card 3 last */
+}

@@ -1,0 +1,71 @@
+.desktop-img { display: block; }
+.mobile-img { display: none; }
+.card-container{
+    width: 563px;
+    height: 625px;
+    border-radius: 22px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F7FE;
+}
+.player-img{
+    width: 535px;
+    height: 300px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.title{
+    font-family: 'Inter', Arial;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #393B4B;
+}
+.card-info{
+    height: 146px;
+    width: 535px;
+    padding: 0px 10px 0px;
+    margin-bottom: 84px;
+}
+.description{
+    font-family: 'Inter', Arial;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #393B4B;
+}
+
+.buttons{
+    height: 43px;
+    width: 535px;;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-family: 'Inter', Arial;
+    font-weight: 500;
+    font-size: 16px;
+}
+.button1{
+    width: 259.5px;
+    height: 43px;
+    border: 1px solid #1658E7;
+    border-radius: 6px;
+    padding: 12px 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #1658E7;
+}
+.button2{
+    width: 259.5px;
+    height: 43px;
+    border: 1px solid #1658E7;
+    border-radius: 6px;
+    padding: 12px 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1658E7;
+    color: #ffffff;
+}

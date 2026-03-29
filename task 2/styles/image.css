@@ -1,0 +1,10 @@
+.flex2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.image{
+    width: 211.54px;
+    height: 317.5px;
+    border-radius: 16px;
+}

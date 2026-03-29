@@ -1,0 +1,28 @@
+.satisfaction-card{
+    height: 131.5px;
+    width: 230px;
+    border: 1px solid #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.thumbs-up{
+    height: 28px;
+    width: 28px;
+}
+.satisfaction-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.88px;
+    letter-spacing: 0px;
+    color: #4A5565;
+}
+.satisfaction-percentage{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #101828;
+}

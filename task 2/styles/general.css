@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}/**so that padding doesnt add extra space**/
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 100px;
+}
+p{
+    margin: 0px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+@media(max-width: 380px){
+    body{
+        padding:16px;
+    }
+    .title{
+        width: 328px;
+    }
+    .image{
+        width: 330px;
+        height: 495px;
+    }
+    .flex2{
+        flex-direction: column;
+    }
+    .flex3-a{
+        height: 220px;
+        width: 328px;
+    }
+    .flex3-b{
+        height: 172px;
+        width: 211px;
+    }
+    .flex3-c{
+        flex-direction: column-reverse;
+    }
+    .flex4{
+        flex-direction: column-reverse;
+    }
+    .progress-list{
+        height: 129.5px;
+        width: 328px;
+    }
+    .satisfaction-card{
+        height: 142px;
+        width: 328px;
+        align-items: center;
+    }
+}

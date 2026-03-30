@@ -5,8 +5,8 @@
 }/**so that padding doesnt add extra space**/
 body {
     background-color: #ffffff;
-    padding: 110px 52px;
     margin: 0px;
+    padding: 0px;
 }
 p{
     margin: 0px;

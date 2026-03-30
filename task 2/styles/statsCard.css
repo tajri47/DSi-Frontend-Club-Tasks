@@ -61,13 +61,20 @@
     align-items: center;
     position: relative;
 }
+
+.left { z-index: 3; }
+.middle { z-index: 2; margin-left: -12px; }
+.right { z-index: 1; margin-left: -12px; }
 .avatar{
     width: 28px;
     height: 28px;
     border-radius: 14px;
     border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.3s;
+    position: relative;
 }
 
-.middle, .right{
-    margin-left: -12px;
+.avatar:hover {
+    transform: translateY(-3px); /* moves up 5px */
 }

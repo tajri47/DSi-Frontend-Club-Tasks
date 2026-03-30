@@ -48,4 +48,7 @@ p{
         width: 328px;
         align-items: center;
     }
+    .avatar:hover{
+        transform: none;
+    }
 }

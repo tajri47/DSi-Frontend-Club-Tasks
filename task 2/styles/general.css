@@ -6,13 +6,12 @@
 body {
     background-color: #ffffff;
     margin: 0px;
-    padding: 100px;
 }
 p{
     margin: 0px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
-@media(max-width: 380px){
+@media(max-width: 435px){
     body{
         padding:16px;
     }

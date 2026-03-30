@@ -62,9 +62,9 @@
     position: relative;
 }
 
-.left { z-index: 3; }
+.left { z-index: 1; }
 .middle { z-index: 2; margin-left: -12px; }
-.right { z-index: 1; margin-left: -12px; }
+.right { z-index: 3; margin-left: -12px; }
 .avatar{
     width: 28px;
     height: 28px;
